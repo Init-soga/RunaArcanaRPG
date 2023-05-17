@@ -8,7 +8,7 @@ export default {
   target: 'static',
   
   router: {
-    base: '/<repository-name>/'
+    base: '/Init-soga.github.io'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
