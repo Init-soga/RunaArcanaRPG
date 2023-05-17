@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{362:function(n,t,e){"use strict";e.r(t);var c=e(305),o={data:()=>({})},r=e(70),component=Object(r.a)(o,(function(){var n=this._self._c;return n(c.a,[n("h1",[this._v("RPG DO WELLER")])])}),[],!1,null,"6e97e4aa",null);t.default=component.exports}}]);
