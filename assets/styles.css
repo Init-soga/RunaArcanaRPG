@@ -1,0 +1,11 @@
+@import url(//db.onlinewebfonts.com/c/89ca59e17b453acf05ac99ecd0ebc1b0?family=Fritz);
+
+* {
+    font-family: "Fritz";
+}
+
+br {
+    display: block;
+    content: "";
+    margin: px 0;
+ }
