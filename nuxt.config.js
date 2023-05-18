@@ -8,7 +8,7 @@ export default {
   target: 'static',
   
   router: {
-    base: '/Init-soga.github.io'
+    base: '/RunaArcanaRPG'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
