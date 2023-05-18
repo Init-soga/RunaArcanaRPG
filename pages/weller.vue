@@ -1,13 +1,16 @@
 <template>
-    <v-app>
-        <v-container style="display: flex; justify-content: center; width: 100vw;">
+    <v-app class="main">
+        <v-row class="titulo-master">
+            FRAGMENTOS DE LOUCURA
+        </v-row>
+        <v-container style="display: flex; justify-content: center; width: 100vw; ">
             <v-card style="margin-top: 2%; " width="90vw">
                 <v-row>
                     <v-col cols="12" class="titulo">
                         <div style="display: flex; justify-content: center;"> Campanha </div>
                     </v-col>
                 </v-row>
-                <v-card-text class="texto-campanha">
+                <div class="texto-campanha">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam autem natus ipsum fuga, a, nobis
                     possimus sapiente saepe illum non ducimus velit, quam laboriosam rerum recusandae reiciendis dolorem
                     voluptates necessitatibus! Recusandae beatae magnam quasi repudiandae magni possimus eum ipsam
@@ -39,36 +42,110 @@
                     nulla perferendis placeat? Sapiente, delectus! Maiores beatae voluptatum facere delectus velit rerum
                     iste quisquam repellendus magnam eius. Ex eius non tempore iure libero omnis, reprehenderit fuga
                     dignissimos voluptatum.
-                </v-card-text>
+                </div>
             </v-card>
         </v-container>
 
-        <v-container style="display: flex; justify-content: center; width: 100vw;">
+        <v-container style="display: flex; justify-content: center; width: 100vw; margin-bottom: 2%;">
             <v-card style="margin-top: 2%;" width="90vw">
                 <v-row>
                     <v-col cols="12" class="titulo">
                         <div style="display: flex; justify-content: center;"> Personagens </div>
                     </v-col>
                 </v-row>
-                <v-card-text >
+                <div>
                     <v-container>
                         <v-row>
-                            <v-col class="grid-item">test</v-col>
-                            <v-col class="grid-item">test</v-col>
-                            <v-col class="grid-item">test</v-col>
+                            <v-col class=" grid-item">
+                                <v-row>
+                                    <div class="img">
+                                        <img style="border-radius: 50%; border: 2px solid gold"
+                                            :src="require('~/assets/Fragmentos/qalinna.jpeg')" width="50%;">
+                                    </div>
+                                </v-row>
+                                <v-row style="display: flex; justify-content: center;">
+                                    <span class="span-personagem">QALINNA</span>
+                                </v-row>
+                            </v-col>
+                            <v-col class="grid-item">
+                                <v-row>
+                                    <div class="img">
+                                        <img style="border-radius: 50%; border: 2px solid gold"
+                                            :src="require('~/assets/Fragmentos/person-placeholder.jpg')" width="50%;">
+                                    </div>
+                                </v-row>
+                                <v-row style="display: flex; justify-content: center;">
+                                    <span class="span-personagem">RHODEN</span>
+                                </v-row>
+                            </v-col>
+                            <v-col class="grid-item">
+                                <v-row>
+                                    <div class="img">
+                                        <img style="border-radius: 50%; border: 2px solid gold"
+                                            :src="require('~/assets/Fragmentos/person-placeholder.jpg')" width="50%;">
+                                    </div>
+                                </v-row>
+                                <v-row style="display: flex; justify-content: center;">
+                                    <span class="span-personagem">KAIOH</span>
+                                </v-row>
+                            </v-col>
                         </v-row>
                         <v-row>
-                            <v-col class="grid-item">test</v-col>
-                            <v-col class="grid-item">test</v-col>
-                            <v-col class="grid-item">test</v-col>
+                            <v-col class="grid-item">
+                                <v-row>
+                                    <div class="img">
+                                        <img style="border-radius: 50%; border: 2px solid gold"
+                                            :src="require('~/assets/Fragmentos/person-placeholder.jpg')" width="50%;">
+                                    </div>
+                                </v-row>
+                                <v-row style="display: flex; justify-content: center;">
+                                    <span class="span-personagem">MIZO</span>
+                                </v-row>
+                            </v-col>
+                            <v-col class="grid-item">
+                                <v-row>
+                                    <div class="img">
+                                        <img style="border-radius: 50%; border: 2px solid gold"
+                                            :src="require('~/assets/Fragmentos/person-placeholder.jpg')" width="50%;">
+                                    </div>
+                                </v-row>
+                                <v-row style="display: flex; justify-content: center;">
+                                    <span class="span-personagem">NIVEK</span>
+                                </v-row>
+                            </v-col>
+                            <v-col class="grid-item">
+                                <v-row>
+                                    <div class="img">
+                                        <img style="border-radius: 50%; border: 2px solid gold"
+                                            :src="require('~/assets/Fragmentos/person-placeholder.jpg')" width="50%;">
+                                    </div>
+                                </v-row>
+                                <v-row style="display: flex; justify-content: center;">
+                                    <span class="span-personagem">ANDRIUS</span>
+                                </v-row>
+                            </v-col>
                         </v-row>
                         <v-row>
-                            <v-col class="grid-item">test</v-col>
-                            <v-col class="grid-item"></v-col>
-                            <v-col class="grid-item"></v-col>
+                            <v-col class="grid-item">
+                                <v-row>
+                                    <div class="img">
+                                        <img style="border-radius: 50%; border: 2px solid gold"
+                                            :src="require('~/assets/Fragmentos/person-placeholder.jpg')" width="50%;">
+                                    </div>
+                                </v-row>
+                                <v-row style="display: flex; justify-content: center;">
+                                    <span class="span-personagem">KHAMZAT</span>
+                                </v-row>
+                            </v-col>
+                            <v-col class="grid-item">
+
+                            </v-col>
+                            <v-col class="grid-item">
+
+                            </v-col>
                         </v-row>
                     </v-container>
-                </v-card-text>
+                </div>
             </v-card>
         </v-container>
     </v-app>
@@ -87,15 +164,43 @@ export default ({
 .titulo {
     font-size: 1.8rem;
     margin-top: 2%;
+    font-weight: bolder;
 }
 
 .texto-campanha {
     text-align: justify;
     text-indent: 5%;
+    margin: 3%;
+    font-weight: bold;
 }
 
-.grid-item{
+.grid-item {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.span-personagem {
+    text-align: center;
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.titulo-master {
+    font-size: 3rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.main{
+    background-image: url("~/assets/background.png");
 }
 </style>

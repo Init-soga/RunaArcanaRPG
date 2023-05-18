@@ -1,7 +1,7 @@
 <template>
-    <v-app>
+    <v-app class="main">
         <v-row class="titulo-master">
-            NOME RPG
+            ZÉFIROS DO ARDOR
         </v-row>
         <v-container style="display: flex; justify-content: center; width: 100vw; ">
             <v-card style="margin-top: 2%; " width="90vw">
@@ -179,5 +179,9 @@ export default ({
     display: flex;
     justify-content: center;
     margin-top: 1%;
+}
+
+.main{
+    background-image: url("~/assets/background.png");
 }
 </style>

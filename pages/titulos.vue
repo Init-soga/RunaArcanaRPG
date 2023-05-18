@@ -1,5 +1,5 @@
 <template>
-    <v-app>
+    <v-app class="main">
         <v-container fluid class="container">
             <v-row>
                 <v-col style="display: flex; justify-content: center;" cols="6">
@@ -50,5 +50,9 @@ export default {
 .imagem2:hover {
     animation: headShake;
     animation-duration: 1s;
+}
+
+.main {
+    background-image: url("~/assets/background.png");
 }
 </style>

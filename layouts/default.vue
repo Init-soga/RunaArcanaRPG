@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <Nuxt />
   </div>
 </template>
@@ -8,4 +8,5 @@
 
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+</style>
