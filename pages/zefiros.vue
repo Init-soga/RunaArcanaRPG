@@ -1,7 +1,7 @@
 <template>
     <v-app class="main">
         <v-row class="titulo-master">
-            ZÉFIROS DO ARDOR
+            ZÉFIROS DE ARDOR
         </v-row>
         <v-container style="display: flex; justify-content: center; width: 100vw; ">
             <v-card style="margin-top: 2%; " width="90vw">
